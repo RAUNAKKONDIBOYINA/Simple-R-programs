@@ -1,0 +1,13 @@
+str=readline()
+print(nchar(str))
+str1=readline()
+str2=readline()
+str3=paste(str1,str2)
+print(str3)
+print(str1==str2)
+print(substr(str,2,5))
+temp=strsplit(str,NULL)[[1]]
+str=paste(rev(temp),collapse="")
+print(str)
+str_rev=paste(rev(strsplit(str,NULL)[[1]]),collapse="")
+print(str==str_rev)
